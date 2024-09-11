@@ -1,0 +1,25 @@
+.w3-content {
+  max-width: 100%;
+  margin-top: 46px;
+}
+.image {
+  width: 100%;
+}
+.band {
+  max-width: 800px;
+}
+.custom-image1 {
+  width: 60%;
+}
+.custom-image2 {
+  width: 60%;
+}
+.custom-image3 {
+  width: 60%;
+}
+.section1 {
+  max-width: 800px;
+}
+#band{
+  max-width: 70%;
+}

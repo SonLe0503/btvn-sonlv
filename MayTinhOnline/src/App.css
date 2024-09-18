@@ -1,0 +1,295 @@
+#hesapmakinesi {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 300px;
+	padding: 10px 8px 15px 7px;
+	border: 3px solid #e0e0e0;
+	border-radius: 10px;
+	background: #fff;
+  margin-right: auto;
+}
+#hesapmakinesi #hm_sonuc {
+	margin: 5px 2px;
+	padding: 7px 10px 0 10px;
+	border: 1px solid #d9d9d9;
+	border-top-color: #c0c0c0;
+	width: 270px;
+	height: 36px;
+	overflow: hidden;
+	direction: ltr;
+	border-radius: 3px;
+}
+#hesapmakinesi #hm_ekran sup {
+	position: relative;
+	bottom: 0.4em;
+	font-size: 75%;
+	vertical-align: baseline;
+}
+#hesapmakinesi #hm_ekran span {
+	color: #eee;
+}
+#hesapmakinesi #hm_sonuc #hm_ekran {
+  border: 1px solid #ddd;
+  float: none;
+  width: 92%;
+  margin-left: 1%;
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 16px;
+}
+#hesapmakinesi #hm_islem {
+	min-height: 20px;
+	color: #222;
+	font: normal 12px verdana;
+	padding-right: 10px;
+	text-align: right;
+	overflow: hidden;
+}
+#hm_tuslar {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-size: 0;
+}
+#hm_tuslar sup {
+	font-size: 11px;
+}
+#hm_tuslar > div {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 40px;
+}
+#hm_tuslar > div > div {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 1px;
+	height: 30px;
+	text-align: center;
+	margin: 4px;
+	border: 1px solid #dedede;
+	background: whiteSmoke;
+	background-image: -moz-linear-gradient(top, #fafafa, whiteSmoke);
+	background-image: -webkit-linear-gradient(top, #fafafa, whiteSmoke);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #fafafa),
+		color-stop(1, whiteSmoke)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#fafafa, EndColorStr=#f5f5f5)";
+	background-image: linear-gradient(top, #fafafa, whiteSmoke);
+	width: 21%;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#hm_tuslar > div > div > div {
+	font: normal 14px/27px Arial;
+}
+#hm_tuslar > div > div.rakam > div {
+	font-size: 18px;
+}
+#hm_tuslar > div > div._active {
+	background: #efefef;
+	background-image: -moz-linear-gradient(top, #f0f0f0, #fafafa);
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #fafafa);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #f0f0f0),
+		color-stop(1, #fafafa)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f0f0f0, EndColorStr=#fafafa)";
+	background-image: linear-gradient(top, #f0f0f0, #fafafa);
+}
+#hm_tuslar > div > div:hover {
+	box-shadow: #ccc 1px 1px 3px;
+}
+#hm_tuslar #hmt_13 {
+	border: 1px solid #3079ed;
+	color: #fff;
+	background: #4f80d6;
+	background-image: -moz-linear-gradient(top, #6eb2e6, #4169ce);
+	background-image: -webkit-linear-gradient(top, #6eb2e6, #4169ce);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #6eb2e6),
+		color-stop(1, #4169ce)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#6eb2e6, EndColorStr=#4169ce)";
+	background-image: linear-gradient(top, #4169ce, #6eb2e6);
+	width: 46%;
+}
+#hm_tuslar #hmt_13 div {
+	font: bold 20px/27px Verdana;
+}
+#hm_tuslar #hmt_13._active {
+	background: #00a;
+	background-image: -moz-linear-gradient(top, #4169ce, #6eb2e6);
+	background-image: -webkit-linear-gradient(top, #4169ce, #6eb2e6);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #4169ce),
+		color-stop(1, #6eb2e6)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#4169ce, EndColorStr=#6eb2e6)";
+	background-image: linear-gradient(top, #6eb2e6, #4169ce);
+}
+#hm_tuslar .diger {
+	border: 1px solid #d0d0d0;
+	font-size: 14px;
+	background: #d0d0d0;
+	background-image: -moz-linear-gradient(top, #f0f0f0, #d0d0d0);
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #d0d0d0);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #f0f0f0),
+		color-stop(1, #d0d0d0)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f0f0f0, EndColorStr=#d0d0d0)";
+	background-image: linear-gradient(top, #d0d0d0, #f0f0f0);
+}
+#hm_tuslar div.diger._active {
+	background: #c0c0c0;
+	background-image: -moz-linear-gradient(top, #d0d0d0, #f0f0f0);
+	background-image: -webkit-linear-gradient(top, #d0d0d0, #f0f0f0);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #d0d0d0),
+		color-stop(1, #f0f0f0)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#d0d0d0, EndColorStr=#f0f0f0)";
+	background-image: linear-gradient(top, #f0f0f0, #d0d0d0);
+}
+#hm_tuslar #hmt_120 div {
+	line-height: 20px;
+}
+#hm_tuslar #hmt_75 div {
+	font: normal 22px/33px Arial;
+}
+#hm_tuslar #hmt_44 div {
+	font: normal 30px/20px Arial;
+}
+#hm_tuslar #hmt_42,
+#hm_tuslar #hmt_43,
+#hm_tuslar #hmt_45,
+#hm_tuslar #hmt_47 {
+	border: 1px solid #dedede;
+	color: #fff;
+	border-color: #444;
+	background: #666;
+	background-image: -moz-linear-gradient(top, #777, #333);
+	background-image: -webkit-linear-gradient(top, #777, #333);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #777),
+		color-stop(1, #333)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#777, EndColorStr=#333)";
+	background-image: linear-gradient(top, #777, #333);
+}
+#hm_tuslar #hmt_42 div,
+#hm_tuslar #hmt_43 div,
+#hm_tuslar #hmt_45 div,
+#hm_tuslar #hmt_47 div {
+	font: normal 24px/30px Arial;
+}
+#hm_tuslar #hmt_42._active,
+#hm_tuslar #hmt_43._active,
+#hm_tuslar #hmt_45._active,
+#hm_tuslar #hmt_47._active {
+	background: #333;
+	background-image: -moz-linear-gradient(top, #333, #777);
+	background-image: -webkit-linear-gradient(top, #333, #777);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #333),
+		color-stop(1, #777)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#333, EndColorStr=#777)";
+	background-image: linear-gradient(top, #333, #777);
+}
+#hm_tuslar #hmt_1008,
+#hm_tuslar #hmt_1046 {
+	border: 1px solid #d14836;
+	background: #d74937;
+	color: #fff;
+	background-image: -moz-linear-gradient(top, #e5634b, #c4261c);
+	background-image: -webkit-linear-gradient(top, #e5634b, #c4261c);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #e5634b),
+		color-stop(1, #c4261c)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#e5634b, EndColorStr=#c4261c)";
+	background-image: linear-gradient(top, #c4261c, #e5634b);
+}
+#hm_tuslar #hmt_1046 > div {
+	font: normal 13px/30px Arial;
+}
+#hm_tuslar #hmt_1008 > div {
+	font-size: 20px;
+}
+#hm_tuslar #hmt_1008._active,
+#hm_tuslar #hmt_1046._active {
+	background: #a00;
+	background-image: -moz-linear-gradient(top, #c4261c, #e5634b);
+	background-image: -webkit-linear-gradient(top, #c4261c, #e5634b);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #c4261c),
+		color-stop(1, #e5634b)
+	);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#c4261c, EndColorStr=#e5634b)";
+	background-image: linear-gradient(top, #e5634b, #c4261c);
+}
+@media only screen and (max-width: 991.5px) {
+	.d-mobile {
+		display: none;
+	}
+  #hesapmakinesi {
+    width: 100%;
+		padding: 0;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+    margin-right: 10px;
+	}
+  #hesapmakinesi #hm_sonuc {
+		width: 100%;
+		height: auto;
+		padding: 0px;
+		margin: 0px;
+		border: none;
+	}
+	#hesapmakinesi #hm_sonuc #hm_ekran {
+		border: 1px solid #ddd;
+		float: none;
+		width: 92%;
+		margin-left: 1%;
+		padding: 5px;
+		border-radius: 2px;
+		font-size: 16px;
+	}
+}

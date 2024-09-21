@@ -1,0 +1,68 @@
+/* Đảm bảo rằng modal xuất hiện trên các phần tử khác */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Nền tối mờ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Đảm bảo modal nằm trên các phần tử khác */
+}
+
+/* Nội dung modal */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+/* Nút đóng modal */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+form {
+  display: grid;
+  text-align: right;
+}
+
+form label {
+  margin-bottom: 15px;
+}
+
+form input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+.error{
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em;
+}

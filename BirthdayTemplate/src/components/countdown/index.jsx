@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 
 function Countdown() {
   const { name, day, month } = useParams();
+
   const [timeLeft, setTimeLeft] = useState({
     days: 263,
     hours: 12,
@@ -97,7 +98,7 @@ function Countdown() {
           <div className="birthdate">
             Birth-Date: {day}{" "}
             {new Date(0, month - 1).toLocaleString("en-US", { month: "long" })}{" "}
-            {new Date().getFullYear()}
+            {new Date().getFullYear() + (new Date() > new Date(new Date().getFullYear(), month - 1, day) ? 1 : 0) }
           </div>
         ) : (
           <div className="birthdate">Birth-Date: 14 June 2024</div>

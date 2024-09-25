@@ -31,14 +31,14 @@ function Generate() {
             placeholder="Enter Day"
             max="31"
             min="1"
-            defaultValue="1"
+             defaultValue="1"
             onChange={(event) => {
               const value = Math.max(1, Math.min(31, event.target.value)); 
               setDay(value);
             }}
           />
           <select
-          defaultValue="1"
+            defaultValue="1"
             onChange={(event) => {
               setMonth(event.target.value);
             }}
